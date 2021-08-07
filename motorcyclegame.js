@@ -23,6 +23,7 @@ var player = new function(){
     this.rot = 0;
     this.rSpeed = 0;
     this.img = new Image();
+    //put the image name in between the quotation marks down below!
     this.img.src = "dino.png";
     this.draw = function(){
         var p1 = c.height - noise(t + this.x) * 0.25;
